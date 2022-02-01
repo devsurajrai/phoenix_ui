@@ -6,7 +6,7 @@ body{
     box-sizing: border-box;
     margin:0;
     padding:0;
-
+   color:var(--text);
    font-size: var(--text-md);
    font-family: var(--lato);
    background-color: var(--background);
@@ -23,21 +23,30 @@ body{
 /* headings  */
 h1{
     font-size: var(--h1);
-    line-height:var(--h1-lh)
+    line-height:var(--h1-lh);
+    color:var(--heading)
 }
 h2{
     font-size: var(--h2);
-    line-height:var(--h2-lh)
+    line-height:var(--h2-lh);
+    color:var(--heading)
+
 }
 h3{
     font-size: var(--h3);
-    line-height:var(--h3-lh)
+    line-height:var(--h3-lh);
+    color:var(--heading)
+
 }
 h4{
     font-size: var(--h4);
-    line-height:var(--h4-lh)
+    line-height:var(--h4-lh);
+    color:var(--heading)
+
 }
 h5{
     font-size: var(--h5);
-    line-height:var(--h5-lh)
+    line-height:var(--h5-lh);
+    color:var(--heading)
+
 }
