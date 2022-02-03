@@ -98,23 +98,26 @@ header nav {
   margin: 1rem;
 }
 .menu-item {
-  display: flex;
-  justify-content: start;
-  align-items: center;
   font-size: var(--text-sm);
   width: calc(100% - 2rem);
   border-radius: 0.5rem;
   height: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.component-btn {
+  display: block;
+  /* height: 3rem; */
+  height: 100%;
+  width: 100%;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: var(--br-md);
   padding: 1rem;
 }
-.menu-item:hover {
+.component-btn:hover {
   background-color: var(--hover);
-  color: white;
-}
-.component-btn {
-  width: 100%;
-  letter-spacing: 2px;
   color: white;
 }
 /* ---iframe----  */
