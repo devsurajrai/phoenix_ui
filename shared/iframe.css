@@ -1,8 +1,16 @@
+.iframe-container {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
 .iframe-codes {
-  width: 100%;
-  height: 30rem;
-  border: none;
-  overflow: auto;
-  border-radius: 2rem;
-  border: 0.5rem var(--text) solid;
+    width: 100%;
+    height: 30rem;
+    border: none;
+    overflow: auto;
+    border-radius: 2rem;
+}
+
+.cdn-link {
+    height: 15rem;
 }
