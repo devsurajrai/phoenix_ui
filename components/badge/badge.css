@@ -1,0 +1,86 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* badge with text  */
+
+.badge-txt {
+  display: inline-block;
+}
+.badge {
+  display: inline-block;
+  height: 0.5em;
+  line-height: 0.5em;
+  font-size: 1em;
+  padding: 0.5em;
+  width: fit-content;
+}
+
+/* colorful badges  */
+
+.badge--primary {
+  background-color: var(--primary);
+}
+.badge--secondary {
+  background-color: var(--secondary);
+}
+.badge--success {
+  background-color: var(--success);
+}
+.badge--danger {
+  background-color: var(--danger);
+}
+.badge--warning {
+  background-color: var(--warning);
+}
+.badge--info {
+  background-color: var(--info);
+}
+.badge--light {
+  background-color: var(--light-color);
+}
+.badge--dark {
+  background-color: var(--dark);
+}
+
+/* badge for avatar  */
+
+.av-mins-badge {
+  bottom: 0;
+  right: -1.6em;
+}
+
+.av-status-badge {
+  height: 0.4em;
+  width: 0.4em;
+  bottom: 0;
+  right: -0em;
+  border: 2px white solid;
+}
+.online {
+  background-color: var(--online);
+}
+.offline {
+  background-color: var(--offline);
+}
+.dnd {
+  background-color: var(--dnd);
+}
+
+/* badge on icon  */
+
+.icon-badge {
+  padding: 0.3em;
+  line-height: 0.4em;
+  bottom: 0;
+  right: -0em;
+  border: 2px white solid;
+  background-color: red;
+  top: -0em;
+  font-size: 1em;
+}
+.icon-sm {
+  width: 4em;
+  height: 4em;
+}

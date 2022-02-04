@@ -1,0 +1,8 @@
+.iframe-codes {
+  width: 100%;
+  height: 30rem;
+  border: none;
+  overflow: auto;
+  border-radius: 2rem;
+  border: 0.5rem var(--text) solid;
+}
