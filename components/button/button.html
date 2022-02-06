@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
     <link rel="stylesheet" href="./button-docs.css" />
     <title>Button</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="buttons-wrapper p-l-xxl p-r-xxl p-b-xxl">
-        <h1>BUTTONS</h1>
-        <p class="text-l fw-l">
-            It is used at various places like forms, dialouges and more.
-        </p>
-        <h2>Get Started</h2>
-        <p>
-            To use only these buttons in your project. Kindly include the following CDN in your HTML file.
-        </p>
-        <div class="iframe-container flex-r flex-center m-tb-xxl">
-            <iframe class="iframe-codes cdn-link" src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fui-phoenix.netlify.app%252Fcomponents%252Fbutton%252Fbutton.css%2522%253E"
-                sandbox="allow-scripts allow-same-origin">
+      <h1>BUTTONS</h1>
+      <p class="text-l fw-l">
+        It is used at various places like forms, dialouges and more.
+      </p>
+      <h2>Get Started</h2>
+      <p>
+        To use only these buttons in your project. Kindly include the following
+        CDN in your HTML file.
+      </p>
+      <div class="iframe-container flex-r flex-center m-tb-xxl">
+        <iframe
+          class="iframe-codes cdn-link"
+          src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fui-phoenix.netlify.app%252Fcomponents%252Fbutton%252Fbutton.css%2522%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
         </iframe>
-        </div>
+      </div>
 
-        <div class="badge-button-container">
-            <h2>Examples</h2>
-            <p class="text-sm">
-                These buttons comes in
-                <strong>Eight Varients- Primary, Secondary, Success, Danger, Warning, Info,
+      <div class="badge-button-container">
+        <h2>Examples</h2>
+        <p class="text-sm">
+          These buttons comes in
+          <strong
+            >Eight Varients- Primary, Secondary, Success, Danger, Warning, Info,
             Light and Dark</strong
           >. &nbsp Each button has specific color which has some meaning
-          attached to it.
+          attached to it. You can use <strong>no-br</strong> class to button to
+          remove the border radius around of the buttons so it looks
+          rectangle/square.
         </p>
 
         <div class="button-doc br-md text-sm">
           <div
-            class="buttons-container bg-white flex-r flex-center p-md m-t-l m-b-l br-md"
+            class="buttons-container bg-white flex-r flex-center flex-wrap p-md m-t-l m-b-l br-md"
           >
             <!-- Primary button  -->
             <div class="button-container flex-r flex-center flex-w m-s">
@@ -72,6 +78,14 @@
             <div class="button-container flex-r flex-center m-s">
               <button class="button button--light">Light</button>
             </div>
+            <!-- Primary Link  -->
+            <div class="button-container flex-r flex-center m-s">
+              <a class="primary-link" href="">Primary Link</a>
+            </div>
+            <!-- Secondary Link  -->
+            <div class="button-container flex-r flex-center m-s">
+              <a class="secondary-link" href="">Secondary Link</a>
+            </div>
           </div>
           <p class="text-sm">
             Use the corresponding button html from below and paste it in your
@@ -80,7 +94,7 @@
           <div class="iframe-container">
             <iframe
               class="iframe-codes"
-              src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Primary%2520button%2520%2520--%253E%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520primary%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Secondary%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520button--secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520secondary%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Danger%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520danger%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2520%253C%21--%2520Success%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520success%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Warning%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520warning%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%253C%21--%2520Info%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520info%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Light%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520button--dark%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520dark%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Dark%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--light%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520light%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2522"
+              src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Primary%2520button%2520%2520--%253E%2520%2520%2520%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520primary%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Secondary%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520button--secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520secondary%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Danger%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520danger%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2520%2520%2520%2520%253C%21--%2520Success%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520success%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Warning%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520warning%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%2509%253C%21--%2520Info%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520info%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Light%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520button--dark%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520dark%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Dark%2520button%2520%2520--%253E%250A%2509%2509%253Cdiv%2520class%253D%2522button%2520button--light%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520the%2520light%2520button.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Primary%2520Link%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522primary-link%2522%2520href%253D%2522%2522%253EPrimary%2520Link%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Secondary%2520Link%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522secondary-link%2522%2520href%253D%2522%2522%253ESecondary%2520Link%253C%252Fa%253E%250A"
               sandbox="allow-scripts allow-same-origin"
             >
             </iframe>
@@ -89,7 +103,7 @@
           <h2>Outline Button</h2>
 
           <div
-            class="buttons-container bg-white flex-r flex-center p-md m-t-l m-b-l br-md"
+            class="buttons-container bg-white flex-r flex-center flex-wrap p-md m-t-l m-b-l br-md"
           >
             <!-- Primary button  -->
             <div class="button-container flex-r flex-center flex-w m-s">
@@ -141,62 +155,185 @@
           <p class="text-sm">
             These buttons can be use to indicate the different sated of the
             button i.e <strong>Active and Disabled</strong>
-            </p>
-            <div class="buttons-container bg-white flex-r flex-center p-md m-t-l m-b-l br-md">
-                <!-- Active button  -->
-                <div class="button-container flex-r flex-center flex-w m-s">
-                    <button class="button button--primary active">Active</button>
-                </div>
-                <!-- Disabled button  -->
-                <div class="button-container flex-r flex-center m-s">
-                    <button class="button button--primary disabled">Disabled</button>
-                </div>
+          </p>
+          <div
+            class="buttons-container bg-white flex-r flex-center flex-wrap p-md m-t-l m-b-l br-md"
+          >
+            <!-- Active button  -->
+            <div class="button-container flex-r flex-center flex-w m-s">
+              <button class="button button--primary active">Active</button>
             </div>
-            <p class="text-sm">
-                Use the corresponding button html from below and paste it in your html to get the exactly same result.
-            </p>
-            <div class="iframe-container">
-                <iframe class="iframe-codes" src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Active%2520button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520active%2522%253EActive%253C%252Fbutton%253E%250A%253C%21--%2520Disabled%2520button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520disabled%2522%253EDisabled%253C%252Fbutton%253E"
-                    style="width: 644px; height: 195px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+            <!-- Disabled button  -->
+            <div class="button-container flex-r flex-center m-s">
+              <button class="button button--primary disabled">Disabled</button>
+            </div>
+          </div>
+          <p class="text-sm">
+            Use the corresponding button html from below and paste it in your
+            html to get the exactly same result.
+          </p>
+          <div class="iframe-container">
+            <iframe
+              class="iframe-codes"
+              src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Active%2520button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520active%2522%253EActive%253C%252Fbutton%253E%250A%253C%21--%2520Disabled%2520button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520disabled%2522%253EDisabled%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
             </iframe>
-            </div>
-            <h2>Button Sizes</h2>
-            <p class="text-sm">
-                All these buttons are also available in four sizes which are
-                <strong>Small, Medium ,Large and Extra Large</strong>. These sizes can be achieved by adding the classes
-                <strong>btn-sm, btn-md, btn-l, btn-xl</strong> respectively.
-            </p>
-
+          </div>
+          <h2>Button Sizes</h2>
+          <p class="text-sm">
+            All these buttons are also available in four sizes which are
+            <strong>Small, Medium ,Large and Extra Large</strong>. These sizes
+            can be achieved by adding the classes
+            <strong>btn-sm, btn-md, btn-l, btn-xl</strong> respectively to any
+            button.
+          </p>
         </div>
-        <div class="buttons-container bg-white flex-r flex-center p-md m-t-l m-b-l br-md">
-            <!-- Small button  -->
+        <div
+          class="buttons-container bg-white flex-r flex-center p-md m-t-l m-b-l br-md"
+        >
+          <!-- Small button  -->
+          <div class="button-container flex-r flex-center flex-wrap flex-w m-s">
+            <button class="button button--primary btn-sm">Active</button>
+          </div>
+          <!-- Medium button  -->
+          <div class="button-container flex-r flex-center m-s">
+            <button class="button button--primary btn-md">Disabled</button>
+          </div>
+          <!-- Large button  -->
+          <div class="button-container flex-r flex-center flex-w m-s">
+            <button class="button button--primary btn-l">Active</button>
+          </div>
+          <!-- Extra Large button  -->
+          <div class="button-container flex-r flex-center m-s">
+            <button class="button button--primary btn-xl">Disabled</button>
+          </div>
+        </div>
+        <p class="text-sm">
+          Use the corresponding button html from below and paste it in your html
+          to get the exactly same result. Below are just the example of the
+          button sizes. You can use these sizes classes with any button here.
+        </p>
+        <div class="iframe-container">
+          <iframe
+            class="iframe-codes"
+            src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253C%21--%2520Small%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-sm%2522%253EActive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Medium%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-md%2522%253EDisabled%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Large%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-l%2522%253EActive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Extra%2520Large%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-xl%2522%253EDisabled%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+      <h2>Icon Buttons</h2>
+      <p class="text-sm">
+        All Icon buttons are also available in four sizes which are
+        <strong>Small, Medium ,Large and Extra Large</strong>. These sizes can
+        be achieved by adding the classes
+        <strong>btn-sm, btn-md, btn-l, btn-xl</strong> respectively.
+      </p>
+      <div
+        class="btn-container bg-white flex-r flex-center flex-wrap p-md m-t-l m-b-l br-md"
+      >
+        <div class="button-container flex-r flex-center flex-w m-s">
+          <!-- Next Icon Button  -->
+          <button class="button button--primary flex-r flex-center btn-sm">
+            Next
+            <img
+              class="button__icon p-l-xs"
+              src="../../Assets/svg/icon-buttons/next.svg"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="button-container flex-r flex-center flex-w m-s">
+          <!-- Previous Icon Button  -->
+          <button class="button button--primary flex-r flex-center btn-sm">
+            <img
+              class="button__icon p-r-xs"
+              src="../../Assets/svg/icon-buttons/previous.svg"
+              alt=""
+            />
+            Previous
+          </button>
+        </div>
+        <div class="button-container flex-r flex-center flex-w m-s">
+          <!-- Send Icon Button  -->
+          <button class="button button--primary flex-r flex-center btn-sm">
+            Send
+            <img
+              class="button__icon p-l-xs"
+              src="../../Assets/svg/icon-buttons/send.svg"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="button-container flex-r flex-center flex-w m-s">
+          <!-- Download Icon Button  -->
+          <button class="button button--primary flex-r flex-center btn-sm">
+            Download File
+            <img
+              class="button__icon p-l-xs"
+              src="../../Assets/svg/icon-buttons/download-file.svg"
+              alt=""
+            />
+          </button>
+        </div>
+      </div>
+      <p class="text-sm">
+        Use the corresponding button html from below and paste it in your html
+        to get the exactly same result. Below are just the example of the button
+        sizes. You can use these sizes classes with any button here.
+      </p>
+      <div class="iframe-container">
+        <iframe
+          class="iframe-codes"
+          src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253C%21--%2520Next%2520Icon%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520%2520flex-r%2520flex-center%2520btn-sm%2522%253ENext%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fnext.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E%250A%253C%21--%2520Previous%2520Icon%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520%2520flex-r%2520flex-center%2520%2520btn-sm%2520%2522%253E%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fprevious.svg%2522%2520alt%253D%2522%2522%253E%2520Previous%253C%252Fbutton%253E%250A%253C%21--%2520Send%2520Icon%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520%2520flex-r%2520flex-center%2520%2520btn-sm%2522%253ESend%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fsend.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E%250A%253C%21--%2520Download%2520Icon%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520%2520flex-r%2520flex-center%2520%2520btn-sm%2522%253EDownload%2520File%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fdownload-file.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E"
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+      <h2>Floating Buttons</h2>
+            <p class="text-sm">
+                All Floating buttons are also available in four sizes which are
+                <strong>Small, Medium ,Large and Extra Large</strong>. These sizes can be achieved by adding the classes
+                <strong>btn-sm, btn-md, btn-l, btn-xl</strong> respectively. Remember you'll need to set the parent's position to relative to make these buttons float according to that parent.
+                <br>
+                <strong>Remember: for the demo purpose "position: absolute" is used for the buttons but you need to change that to "position:fixed"</strong>
+
+            </p>
+        <div class="btn-container bg-white  floating-btn flex-r flex-center flex-wrap p-md m-t-l m-b-l br-md">
+
+            <div class="button-container flex-r flex-center  flex-w m-s">
+              <!-- Floating Button Bottom Right -->
+                <button class="button button--primary floating-btn-bottom-right flex-r flex-center btn-sm">Next <img class="button__icon p-l-xs" src="../../Assets/svg/icon-buttons/next.svg" alt=""></button>
+            </div>
             <div class="button-container flex-r flex-center flex-w m-s">
-                <button class="button button--primary btn-sm">Active</button>
+<!-- Floating Button Top Right -->
+                <button class="button button--primary floating-btn-top-right flex-r flex-center btn-sm">Next <img class="button__icon p-l-xs" src="../../Assets/svg/icon-buttons/next.svg" alt=""></button>
             </div>
-            <!-- Medium button  -->
-            <div class="button-container flex-r flex-center m-s">
-                <button class="button button--primary btn-md">Disabled</button>
-            </div>
-            <!-- Large button  -->
             <div class="button-container flex-r flex-center flex-w m-s">
-                <button class="button button--primary btn-l">Active</button>
+<!-- Floating Button Top Left -->
+              <button class="button button--primary floating-btn-top-left flex-r flex-center btn-sm"> <img class="button__icon p-r-xs" src="../../Assets/svg/icon-buttons/previous.svg" alt=""> Previous </button>
             </div>
-            <!-- Extra Large button  -->
-            <div class="button-container flex-r flex-center m-s">
-                <button class="button button--primary btn-xl">Disabled</button>
+            <div class="button-container flex-r flex-center flex-w m-s">
+<!-- Floating Button Bottom Left -->
+                <button class="button button--primary floating-btn-bottom-left flex-r flex-center btn-sm"> <img class="button__icon p-r-xs" src="../../Assets/svg/icon-buttons/previous.svg" alt=""> Previous </button>
+            </div>
+            <div class="button-container flex-r flex-center flex-w m-s">
+<!-- Floating Button Center -->
+                <button class="button button--primary floating-btn-center flex-r flex-center btn-sm">Next <img class="button__icon p-l-xs" src="../../Assets/svg/icon-buttons/next.svg" alt=""></button>
             </div>
         </div>
         <p class="text-sm">
             Use the corresponding button html from below and paste it in your html to get the exactly same result. Below are just the example of the button sizes. You can use these sizes classes with any button here.
         </p>
         <div class="iframe-container">
-            <iframe class="iframe-codes" src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253C%21--%2520Small%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-sm%2522%253EActive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Medium%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-md%2522%253EDisabled%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Large%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-l%2522%253EActive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Extra%2520Large%2520button%2520%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button--primary%2520btn-xl%2522%253EDisabled%253C%252Fbutton%253E"
-                sandbox="allow-scripts allow-same-origin">
-        </iframe>
+          <iframe class="iframe-codes"
+  src="https://carbon.now.sh/embed?bg=rgba%28232%2C233%2C243%2C1%29&t=material&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=18px&ph=23px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Floating%2520Button%2520Bottom%2520Right%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520floating-btn-bottom-right%2520flex-r%2520flex-center%2520btn-sm%2522%253ENext%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fnext.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E%250A%253C%21--%2520Floating%2520Button%2520Top%2520Right%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520floating-btn-top-right%2520flex-r%2520flex-center%2520btn-sm%2522%253ENext%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fnext.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E%250A%253C%21--%2520Floating%2520Button%2520Top%2520Left%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520floating-btn-top-left%2520flex-r%2520flex-center%2520btn-sm%2522%253E%2520%253Cimg%2520class%253D%2522button__icon%2520p-r-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fprevious.svg%2522%2520alt%253D%2522%2522%253E%2520Previous%2520%253C%252Fbutton%253E%250A%253C%21--%2520Floating%2520Button%2520Bottom%2520Left%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520floating-btn-bottom-left%2520flex-r%2520flex-center%2520btn-sm%2522%253E%2520%253Cimg%2520class%253D%2522button__icon%2520p-r-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fprevious.svg%2522%2520alt%253D%2522%2522%253E%2520Previous%2520%253C%252Fbutton%253E%250A%253C%21--%2520Floating%2520Button%2520Center%2520--%253E%250A%253Cbutton%2520class%253D%2522button%2520button--primary%2520floating-btn-center%2520flex-r%2520flex-center%2520btn-sm%2522%253ENext%2520%253Cimg%2520class%253D%2522button__icon%2520p-l-xs%2522%2520src%253D%2522..%252F..%252FAssets%252Fsvg%252Ficon-buttons%252Fnext.svg%2522%2520alt%253D%2522%2522%253E%253C%252Fbutton%253E"
+
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
         </div>
     </div>
     </div>
-    </div>
-</body>
-
+  </body>
 </html>

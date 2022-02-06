@@ -89,6 +89,9 @@
   justify-content: center;
   align-items: center;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 /* positioning  */
 .position-r {
@@ -97,7 +100,9 @@
 .position-a {
   position: absolute;
 }
-
+.position-f {
+  position: fixed;
+}
 /* bg-colors  */
 .bg-white {
   background-color: white;
