@@ -1,0 +1,178 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* solid buttons  */
+
+.button {
+  width: fit-content;
+  padding: calc(var(--spc-s) - 0.3rem);
+  border-radius: var(--br-s);
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.button--primary {
+  background-color: var(--primary);
+}
+
+.button--secondary {
+  background-color: var(--secondary);
+}
+
+.button--danger {
+  background-color: var(--danger);
+}
+
+.button--success {
+  background-color: var(--success);
+}
+
+.button--warning {
+  background-color: var(--warning);
+}
+
+.button--info {
+  background-color: var(--info);
+}
+
+.button--dark {
+  background-color: var(--dark);
+}
+
+.button--light {
+  background-color: var(--light-color);
+  color: var(--dark);
+}
+.no-br {
+  border-radius: 0px;
+}
+
+/* links  */
+
+.primary-link {
+  color: var(--primary);
+}
+.secondary-link {
+  color: var(--secondary);
+}
+/* outline buttons  */
+.outline-button-primary {
+  color: var(--primary);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-secondary {
+  color: var(--secondary);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-danger {
+  color: var(--danger);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-success {
+  color: var(--success);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-warning {
+  color: var(--warning);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-info {
+  color: var(--info);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-light {
+  color: var(--light-color);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+.outline-button-dark {
+  color: var(--dark);
+  background-color: white;
+  border: 1px solid currentColor;
+}
+
+/* active and disbaled buttons  */
+
+.active {
+  opacity: 100%;
+}
+
+.disabled {
+  opacity: 60%;
+}
+
+/* button sizes  */
+
+.btn-sm {
+  padding: 0.5em;
+}
+
+.btn-md {
+  padding: 1.25em;
+}
+
+.btn-l {
+  padding: 1.75em;
+}
+
+.btn-xl {
+  padding: 2.25em;
+}
+
+/* icon- button  */
+
+.button__icon {
+  width: 0.9em;
+}
+
+/* floating-btn  */
+.floating-btn {
+  position: relative;
+  height: 30rem;
+}
+
+.floating-btn-top-right {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+.floating-btn-bottom-right {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+.floating-btn-top-left {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+.floating-btn-bottom-left {
+  position: absolute;
+  bottom: 2em;
+  left: 2em;
+}
+.floating-btn-center {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  top: auto;
+  right: auto;
+}

@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 /* ------------------  */
+
 :root {
   /* colors  */
   --primary: #fb5012;
@@ -12,33 +13,26 @@
   --background: #e8e9f3;
   --heading: #3a3335;
   --text: #628395;
-
   /* contextual colors  */
-
-  --danger: red;
-  --success: green;
-  --warning: yellow;
-  --info: rgb(42, 147, 170);
-  --dark: black;
+  --danger: #721c24;
+  --success: #155724;
+  --warning: #856404;
+  --info: #0c5460;
+  --dark: grey;
   --light-color: whitesmoke;
   --online: green;
   --offline: rgb(221, 221, 221);
   --dnd: red;
-
   /* elements-state(eg.button)  */
-
   --active: var(--primary);
   /* --hover:var(--secondary); */
   --hover: #fb7646;
   --disabled: #fda889;
-
   /* typography  */
   --lato: "Lato", sans-serif;
   --arvo: "Arvo", serif;
   --abril-fatface: "Abril Fatface", cursive;
-
   /* font sizes  & line height  */
-
   /* Heading  */
   --h1: 4.8rem;
   --h1-lh: 6.4rem;
@@ -50,7 +44,6 @@
   --h4-lh: 2.4rem;
   --h5: 0.8rem;
   --h5-lh: 1.6rem;
-
   /* Text  */
   --text-xl-lh: 6.4rem;
   --text-xl: 4.8rem;
@@ -62,25 +55,19 @@
   --text-sm-lh: 2.4rem;
   --text-xsm: 0.8rem;
   --text-xsm-lh: 1.6rem;
-
   /* Font-weight  */
-
   --light: 300;
   --regular: 400;
   --bold: 700;
   --black: 900;
-
   /* Styling  */
-
   /*--Spacing--  */
-
   --spc-xs: 0.8rem;
   --spc-s: 1.6rem;
   --spc-md: 2.4rem;
   --spc-l: 3.2rem;
   --spc-xl: 4rem;
   --spc-xxl: 6.4rem;
-
   /* border-radius  */
   --br-s: 0.5rem;
   --br-md: 1rem;
