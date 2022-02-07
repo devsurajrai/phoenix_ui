@@ -71,6 +71,16 @@
   border-radius: var(--br-xl);
 }
 
+/* border-radius  */
+.round {
+  border-radius: var(--br-s);
+}
+.semi-round {
+  border-radius: var(--br-l);
+}
+.full-round {
+  border-radius: 50%;
+}
 /* Display  */
 .display-in-bl {
   display: inline-block;
@@ -88,6 +98,9 @@
 .flex-center {
   justify-content: center;
   align-items: center;
+}
+.flex-sb {
+  justify-content: space-between;
 }
 
 /* positioning  */

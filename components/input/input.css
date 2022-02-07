@@ -1,0 +1,23 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* input  */
+
+.input--common {
+  width: 30rem;
+  border-radius: var(--br-xl);
+  border: none;
+  padding-left: 1em;
+  line-height: 2em;
+  font-size: var(--text-sm);
+  transition: all 0.1s ease;
+  margin: 5px;
+}
+.input--common:focus {
+  background-color: var(--light-color);
+  outline: 3px solid var(--secondary);
+}
+
+/* input fancy  */
