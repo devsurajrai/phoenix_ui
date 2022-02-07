@@ -18,8 +18,8 @@
   line-height: var(--text-sm-lh);
 }
 .text-xs {
-  font-size: var(--text-xs);
-  line-height: var(--text-xs-lh);
+  font-size: var(--text-xsm);
+  line-height: var(--text-xsm-lh);
 }
 
 /* font-weight  */
@@ -85,6 +85,12 @@
 .display-in-bl {
   display: inline-block;
 }
+.txt-algn {
+  text-align: center;
+}
+.display-none {
+  display: none;
+}
 /* flex  */
 
 .flex-r {
@@ -99,8 +105,16 @@
   justify-content: center;
   align-items: center;
 }
+
 .flex-sb {
   justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-j-fe {
+  justify-content: flex-end;
 }
 
 /* positioning  */
@@ -110,7 +124,9 @@
 .position-a {
   position: absolute;
 }
-
+.position-f {
+  position: fixed;
+}
 /* bg-colors  */
 .bg-white {
   background-color: white;

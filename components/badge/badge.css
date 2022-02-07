@@ -8,12 +8,13 @@
 .badge-txt {
   display: inline-block;
 }
+
 .badge {
   display: inline-block;
   height: 0.5em;
   line-height: 0.5em;
-  font-size: 1em;
-  padding: 0.5em;
+  font-size: 0.8em;
+  padding: 0.7em;
   width: fit-content;
 }
 
@@ -22,24 +23,31 @@
 .badge--primary {
   background-color: var(--primary);
 }
+
 .badge--secondary {
   background-color: var(--secondary);
 }
+
 .badge--success {
   background-color: var(--success);
 }
+
 .badge--danger {
   background-color: var(--danger);
 }
+
 .badge--warning {
   background-color: var(--warning);
 }
+
 .badge--info {
   background-color: var(--info);
 }
+
 .badge--light {
   background-color: var(--light-color);
 }
+
 .badge--dark {
   background-color: var(--dark);
 }
@@ -58,12 +66,15 @@
   right: -0em;
   border: 2px white solid;
 }
+
 .online {
   background-color: var(--online);
 }
+
 .offline {
   background-color: var(--offline);
 }
+
 .dnd {
   background-color: var(--dnd);
 }
@@ -80,6 +91,7 @@
   top: -0em;
   font-size: 1em;
 }
+
 .icon-sm {
   width: 4em;
   height: 4em;
