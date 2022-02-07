@@ -144,9 +144,6 @@
 }
 
 /* floating-btn  */
-.position-fixed {
-  position: fixed;
-}
 .floating-btn {
   position: relative;
   height: 30rem;
