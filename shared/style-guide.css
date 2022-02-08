@@ -32,6 +32,9 @@
   --lato: "Lato", sans-serif;
   --arvo: "Arvo", serif;
   --abril-fatface: "Abril Fatface", cursive;
+  /* text-colors  */
+  --text-d-grey: #a9a9a9;
+  --text-l-grey: #d3d3d3;
   /* font sizes  & line height  */
   /* Heading  */
   --h1: 4.8rem;
