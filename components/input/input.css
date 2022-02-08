@@ -1,0 +1,46 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* simple-input  */
+
+.input-simple {
+  width: 100%;
+  border-radius: var(--br-xl);
+  border: 1px solid var(--secondary);
+  padding: 0px 0px 0px 1em;
+  line-height: 2em;
+  font-size: var(--text-sm);
+  transition: all 0.1s ease-out;
+}
+.input-simple:focus {
+  background-color: var(--light-color);
+  outline: 1px solid var(--secondary);
+}
+/* input with validation  */
+.input-label {
+  top: -0.7em;
+  left: 2em;
+  background-color: white;
+  padding: none;
+}
+.input-error {
+  outline-color: red;
+  border-color: red;
+  color: red;
+}
+
+.input-error:focus {
+  outline-color: red;
+}
+
+.input-success {
+  outline-color: var(--success);
+  border-color: var(--success);
+  color: var(--success);
+}
+
+.input-success:focus {
+  outline-color: var(--success);
+}
