@@ -10,7 +10,7 @@
   transform: scale(1.02);
   cursor: pointer;
 }
-.badge {
+.card-badge {
   left: 0.5em;
   top: 1.3em;
 }

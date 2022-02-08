@@ -1,0 +1,23 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* responsive image hero/banner */
+
+.res-img-container {
+  width: 100%;
+}
+
+.res-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* round responsive image  */
+.round-res-img {
+  height: 10em;
+  width: 10em;
+}
