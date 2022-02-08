@@ -1,0 +1,45 @@
+@import url(./shared/reset.css);
+@import url(./shared/style-guide.css);
+@import url(./shared/utility.css);
+@import url(./shared/iframe.css);
+
+/* Headings  */
+.h1 {
+  font-size: var(--h1);
+  line-height: var(--h1-lh);
+}
+.h2 {
+  font-size: var(--h2);
+  line-height: var(--h2-lh);
+}
+.h3 {
+  font-size: var(--h3);
+  line-height: var(--h3-lh);
+}
+.h4 {
+  font-size: var(--h4);
+  line-height: var(--h4-lh);
+}
+.h5 {
+  font-size: var(--h5);
+  line-height: var(--h5-lh);
+}
+
+/* grey texts  */
+
+.text-d-grey {
+  color: var(--text-d-grey);
+}
+.text-l-grey {
+  color: var(--text-l-grey);
+}
+
+/* text center  */
+.text-hor-ver-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-hor-center {
+  text-align: center;
+}
