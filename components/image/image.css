@@ -18,6 +18,7 @@
 
 /* round responsive image  */
 .round-res-img {
+  aspect-ratio: 1/1;
   height: 10em;
   width: 10em;
 }
