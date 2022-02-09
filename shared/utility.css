@@ -81,6 +81,20 @@
 .full-round {
   border-radius: 50%;
 }
+
+/* lists  */
+.ul-s-style {
+  list-style: square;
+}
+.ul-c-style {
+  list-style: circle;
+}
+.ol-ur-style {
+  list-style: upper-roman;
+}
+.ol-la-style {
+  list-style: lower-alpha;
+}
 /* Display  */
 .display-in-bl {
   display: inline-block;
@@ -111,6 +125,9 @@
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.flex-sp-eve {
+  justify-content: space-evenly;
 }
 
 .flex-j-fe {
@@ -148,6 +165,9 @@
 }
 
 /* colors  */
+.primary-color {
+  color: var(--primary);
+}
 .color-black {
   color: black;
 }
@@ -193,7 +213,13 @@
 .vh-half {
   height: 50vw;
 }
-
+.w-fit-cont {
+  width: fit-content;
+}
+/* margin  */
+.m-l-auto {
+  margin-left: auto;
+}
 /* line-height  */
 
 .lh-xs {
