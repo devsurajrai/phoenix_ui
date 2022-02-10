@@ -25,13 +25,13 @@
   line-height: var(--h5-lh);
 }
 
-/* grey texts  */
+/* gray texts  */
 
-.text-d-grey {
-  color: var(--text-d-grey);
+.text-d-gray {
+  color: var(--text-d-gray);
 }
-.text-l-grey {
-  color: var(--text-l-grey);
+.text-l-gray {
+  color: var(--text-l-gray);
 }
 
 /* text center  */

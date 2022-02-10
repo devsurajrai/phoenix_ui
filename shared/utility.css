@@ -54,8 +54,8 @@
 }
 
 /* Border  */
-.border-none {
-  border: none;
+.no-br {
+  border-radius: none;
 }
 
 .br-sm {
@@ -94,6 +94,11 @@
 }
 .ol-la-style {
   list-style: lower-alpha;
+}
+
+/* links  */
+.a-underline {
+  text-decoration: underline;
 }
 /* Display  */
 .display-in-bl {
@@ -160,8 +165,8 @@
 .bg-white {
   background-color: white;
 }
-.bg-grey-dark {
-  background-color: grey;
+.bg-gray-dark {
+  background-color: gray;
 }
 
 /* colors  */
