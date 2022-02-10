@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
 
 /* ------------------  */
 
@@ -32,6 +33,7 @@
   --lato: "Lato", sans-serif;
   --arvo: "Arvo", serif;
   --abril-fatface: "Abril Fatface", cursive;
+  --font-brand: "Shizuru", cursive;
   /* text-colors  */
   --text-d-gray: #a9a9a9;
   --text-l-gray: #d3d3d3;
