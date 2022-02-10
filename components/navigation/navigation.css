@@ -12,13 +12,10 @@
   border-bottom: 3px solid var(--secondary);
   align-items: center;
   background-color: var(--secondary);
-  flex: 1 1 fit-content;
 }
-.nav-menu {
-  margin-left: auto;
-}
+
 .nav-menu__items {
-  width: 25rem;
+  min-width: 25rem;
   justify-content: space-around;
   font-size: 1.7rem;
 }
@@ -104,6 +101,7 @@
   width: 15em;
   border: 2px solid white;
   background-color: white;
+  flex-shrink: 999999;
 }
 .nav-search input {
   border: none;
