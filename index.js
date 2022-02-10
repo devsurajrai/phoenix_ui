@@ -13,6 +13,7 @@ let activeComponentBtn = (node) => {
 let assignPath = (node) => {
   activeComponentBtn(node);
   iframe.src = `./components/${node.innerHTML.toLocaleLowerCase()}/${node.innerHTML.toLocaleLowerCase()}.html`;
+  console.log(iframe.src);
 };
 console.log(menuItems);
 menuItems.forEach((node) => {

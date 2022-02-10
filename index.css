@@ -2,65 +2,6 @@
 .docs {
   background-color: var(--secondary);
 }
-.nav-header {
-  display: flex;
-  align-items: baseline;
-  height: 7rem;
-  border-bottom: 4px solid var(--secondary);
-  background-color: var(--primary);
-}
-
-header nav {
-  display: flex;
-  height: 90%;
-  border-bottom: 3px solid var(--secondary);
-  align-items: center;
-  background-color: var(--secondary);
-  flex: 1 1 fit-content;
-}
-.nav-menu {
-  margin-left: auto;
-}
-.nav-menu__items {
-  display: flex;
-  width: 25rem;
-  justify-content: space-around;
-  font-size: 1.7rem;
-}
-.brand-name {
-  color: var(--primary);
-  font-size: 2.5rem;
-  text-decoration: none;
-  font-weight: 700;
-  text-shadow: 0px 1.9rem 4px var(--primary);
-  transition: all 0.1s ease;
-}
-.brand-name:hover {
-  text-shadow: unset;
-  cursor: pointer;
-}
-.nav-menu__items--link {
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: white;
-  font-weight: 400;
-  transition: all 0.1s ease;
-}
-.nav-menu__items--link:hover {
-  font-size: 1.9rem;
-  color: var(--hover);
-}
-.link-active {
-  font-weight: var(--bold);
-  font-size: 2rem;
-  color: var(--primary);
-}
-.link-active:hover {
-  font-weight: var(--bold);
-  font-size: 2rem;
-  color: var(--primary);
-}
-
 /* sidebar  */
 .components-container {
   display: grid;

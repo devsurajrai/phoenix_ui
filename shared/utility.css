@@ -53,7 +53,7 @@
   background-color: var(--disabled);
 }
 
-/* Border  */
+/* Border -radius */
 .no-br {
   border-radius: none;
 }
@@ -71,7 +71,6 @@
   border-radius: var(--br-xl);
 }
 
-/* border-radius  */
 .round {
   border-radius: var(--br-s);
 }
@@ -161,6 +160,10 @@
 .right-0 {
   right: 0;
 }
+/* cursor  */
+.cursor-pr {
+  cursor: pointer;
+}
 /* bg-colors  */
 .bg-white {
   background-color: white;
@@ -168,7 +171,12 @@
 .bg-gray-dark {
   background-color: gray;
 }
-
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
 /* colors  */
 .primary-color {
   color: var(--primary);

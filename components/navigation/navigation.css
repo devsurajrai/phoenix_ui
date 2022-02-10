@@ -1,0 +1,113 @@
+@import url(../input/input.css);
+/* Simple Navigation  */
+.nav-header {
+  align-items: baseline;
+  height: 7rem;
+  border-bottom: 4px solid var(--secondary);
+  background-color: var(--primary);
+}
+
+.nav {
+  height: 90%;
+  border-bottom: 3px solid var(--secondary);
+  align-items: center;
+  background-color: var(--secondary);
+}
+
+.nav-menu__items {
+  min-width: 25rem;
+  justify-content: space-around;
+  font-size: 1.7rem;
+}
+.brand-name {
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: 0px 1.9rem 4px var(--primary);
+  transition: all 0.1s ease;
+}
+.brand-name:hover {
+  text-shadow: unset;
+  cursor: pointer;
+}
+.nav-menu__items--link {
+  font-size: 1.8rem;
+  color: white;
+  transition: all 0.1s ease;
+}
+.nav-menu__items--link:hover {
+  font-size: 1.9rem;
+  color: var(--hover);
+}
+.link-active {
+  font-weight: var(--bold);
+  font-size: 2rem;
+  color: var(--primary);
+}
+.link-active:hover {
+  font-weight: var(--bold);
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+/* E-commerce  */
+.nav--e-comm-bg {
+  background-color: var(--primary);
+}
+
+.nav-header--e-comm,
+.nav--e-comm {
+  border: none;
+  text-shadow: none;
+}
+
+.nav-header--e-comm {
+  height: 6rem;
+}
+.nav--e-comm {
+  border: unset;
+  height: 100%;
+}
+
+.brand-name--e-comm {
+  font-family: var(--font-brand);
+  text-shadow: none;
+  color: white;
+}
+.nav-menu-e-comm {
+  margin: unset;
+}
+/* icons-badge */
+.nav-icon {
+  height: 1.5em;
+  width: 1.5em;
+}
+.nav-icon img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(351deg)
+    brightness(105%) contrast(103%);
+}
+.nav-icon-badge {
+  font-size: 0.6em;
+  top: -0.5em;
+  right: -0.6em;
+}
+.login-btn {
+  padding: 0.8em;
+}
+
+/* search-icon  */
+.nav-search {
+  height: 30%;
+  width: 15em;
+  border: 2px solid white;
+  background-color: white;
+  flex-shrink: 999999;
+}
+.nav-search input {
+  border: none;
+}
+.nav-search input:focus {
+  outline: none;
+  background-color: white;
+  color: grey;
+}
