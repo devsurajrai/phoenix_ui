@@ -42,13 +42,13 @@ h2 {
   justify-content: center;
 }
 .socials li:hover {
-  filter: invert(42%) sepia(87%) saturate(3936%) hue-rotate(354deg)
-    brightness(101%) contrast(97%);
+  filter: invert(58%) sepia(99%) saturate(1263%) hue-rotate(128deg)
+    brightness(97%) contrast(105%);
 }
-button {
+.getting-started {
   transition: all 0.1s ease;
 }
-button:hover {
+.getting-started:hover {
   box-shadow: 0px 1px 2px 1px var(--dark);
   transform: scale(1.02);
 }
