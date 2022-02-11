@@ -52,7 +52,7 @@
 
 /* E-commerce  */
 .nav--e-comm-bg {
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .nav-header--e-comm,
@@ -93,6 +93,10 @@
 }
 .login-btn {
   padding: 0.8em;
+}
+.login-btn:hover {
+  padding: 0.8em;
+  background-color: var(--hover);
 }
 
 /* search-icon  */
