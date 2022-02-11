@@ -9,8 +9,8 @@
 
 :root {
   /* colors  */
-  --primary: #fb5012;
-  --secondary: #3e78b2;
+  --primary: #04d9c4;
+  --secondary: #5b48d9;
   --background: #e8e9f3;
   --heading: #3a3335;
   --text: #628395;
@@ -26,9 +26,9 @@
   --dnd: red;
   /* elements-state(eg.button)  */
   --active: var(--primary);
-  /* --hover:var(--secondary); */
-  --hover: #fb7646;
-  --disabled: #fda889;
+
+  --hover: #3cccbe;
+  --disabled: #b4eee8;
   /* typography  */
   --lato: "Lato", sans-serif;
   --arvo: "Arvo", serif;

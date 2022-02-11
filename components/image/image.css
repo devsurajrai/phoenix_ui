@@ -1,7 +1,7 @@
-@import url(./shared/reset.css);
-@import url(./shared/style-guide.css);
-@import url(./shared/utility.css);
-@import url(./shared/iframe.css);
+@import url(../../shared/reset.css);
+@import url(../../shared/style-guide.css);
+@import url(../../shared/utility.css);
+@import url(../../shared/iframe.css);
 
 /* responsive image hero/banner */
 

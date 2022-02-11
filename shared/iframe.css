@@ -9,6 +9,7 @@
   border: none;
   overflow: auto;
   border-radius: 2rem;
+  overflow: hidden;
 }
 
 .cdn-link {
