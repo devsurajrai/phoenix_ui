@@ -5,9 +5,12 @@
 <h1 align="center" ><img src="https://user-images.githubusercontent.com/77954411/153797027-e21095a5-c6a5-41fd-908b-7002b8328759.gif"/></h1>
 
 
-## Table of Contents
 ### Installation
-[Follow the guide to install this library in your project](https://ui-phoenix.netlify.app)
+Just the link from below and paste in the header section of your html file as illustrated below
+```
+             <link rel="stylesheet" href="https://ui-phoenix.netlify.app/main.css">   
+```
+![installation-demo-image](https://user-images.githubusercontent.com/77954411/153798849-4733ffcd-1fab-4ae2-8d83-745cf7ae28bd.png)
 
 ### Available Components
 
