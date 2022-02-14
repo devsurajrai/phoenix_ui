@@ -28,9 +28,9 @@ Just the link from below and paste in the header section of your html file as il
 6. [Input](https://ui-phoenix.netlify.app/components/docs/docs.html)
 7. [Image](https://ui-phoenix.netlify.app/components/docs/docs.html)
 8. [Card](https://ui-phoenix.netlify.app/components/docs/docs.html)
-9. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html)
-10. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html)
-11. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html) 
+9. [List](https://ui-phoenix.netlify.app/components/docs/docs.html)
+10. [Text Utilities](https://ui-phoenix.netlify.app/components/docs/docs.html)
+11. [Navigation](https://ui-phoenix.netlify.app/components/docs/docs.html) 
 
 ### Using the same icons as in the components
 
