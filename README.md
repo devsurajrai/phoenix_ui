@@ -1,9 +1,13 @@
 
-<h1 align="center">PHOENIX UI</h1>
+<h1 align="center">PHOENIX UI</h1><br>
 <p align="center">This is a Component library which can be used to effortlessly build the great UIs. <a href="https://ui-phoenix.netlify.app">Pay a visit</a><br></p>
 
 <h1 align="center" ><img src="https://user-images.githubusercontent.com/77954411/153797027-e21095a5-c6a5-41fd-908b-7002b8328759.gif"/></h1>
+<hr>
 
+## About
+
+This Component library is built to make the projects building process easy and fun. Also for the sake of consistancy in the projects which would be built using this Library. This component library is in its initial stages and would surely evolve on the way. I've built this for the personal use but if people can benifit from it would be my pleasure. 
 
 ### Installation
 Just the link from below and paste in the header section of your html file as illustrated below
@@ -12,13 +16,13 @@ Just the link from below and paste in the header section of your html file as il
 ```
 ![installation-demo-image](https://user-images.githubusercontent.com/77954411/153798849-4733ffcd-1fab-4ae2-8d83-745cf7ae28bd.png)
 
-**In addition to including the whole component library in your project, Phoenix UI also gives you an option to import only the component you need. Suppose you need to use the CARDS components only, You can do that by only adding the stylesheet CDN for the CARDS component Only.**
+**In addition to including the whole component library in your project, Phoenix UI also gives you an option to import only the component you need. Suppose you need to use the CARDS components only, You can do that by only adding the stylesheet CDN only for the CARDS component.**
 
 **EXAMPLE**
 ```
 <link rel="stylesheet" href="https://ui-phoenix.netlify.app/components/card/card.css">
 ```
-
+** The CDN link for each component is mentioned in the documentation.**
 ### Available Components
 
 1. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html)
@@ -34,7 +38,7 @@ Just the link from below and paste in the header section of your html file as il
 
 ### Using the same icons as in the components
 
-The icons/images used in this component library are stored locally in the project. So, in order for you to be able to use that just make a small change in the image source url as stated below:
+The icons/images used in this component library are stored locally in the project. So, in order for you to be able to use that just make a small change in the image source url as stated below:<br>
 Imagine you are using E-Commerce Nav Component, then to use the svg icons used in that nav bar just do the following:
 ```
 <img src="../../Assets/svg/navigation/search.svg" alt="search">
@@ -56,7 +60,7 @@ git clone git@github.com:devsurajrai/phoenix_ui.git
 2. A directory named "phonenix_ui" will be created on your machine.
 3. Go to the index.html and use the live server to run the project.
 
-### Adding new components to PHOENIX UI
+### Contributing to the project
 
 1. Do the steps (1-2) exactly as above.
 2. Refer the **style-guide.css** and **utilities.css** to get the idea what pattern is followed.
@@ -76,8 +80,8 @@ git clone git@github.com:devsurajrai/phoenix_ui.git
 [![](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/surajrai_z)
 <a href="mailto:devsurajrai@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></img></a>
 
-
-<h1 align="center">This project is made with love by **Suraj Rai**.<h1>
+THANK YOU ❤️
+<h1 align="center">This project is made with love by SURAJ RAI.<h1>
 
 
 
