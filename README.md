@@ -68,7 +68,9 @@ git clone git@github.com:devsurajrai/phoenix_ui.git
 
 **Note: Please describe the component/changes you have made in your pull request. It would be nice if you could attach a visual example for the same.**
 
-### Connect with me 
+
+<h3 align="center">Connect With Me👇</h><br><br>
+
 [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_surajrai_z/)
 [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sr3688/)
 [![](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/surajrai_z)
