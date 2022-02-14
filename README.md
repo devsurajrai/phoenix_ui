@@ -7,7 +7,7 @@
 
 ## About
 
-This Component library is built to make the projects building process easy and fun. Also for the sake of consistancy in the projects which would be built using this Library. This component library is in its initial stages and would surely evolve on the way. I've built this for the personal use but if people can benifit from it would be my pleasure. 
+This Component library is built with plain **HTML and CSS** to make the projects building process easy and fun. Also for the sake of consistancy in the projects which would be built using this Library. This component library is in its initial stages and would surely evolve on the way. I've built this for the personal use but if people can benifit from it would be my pleasure. 
 
 ### Installation
 Just the link from below and paste in the header section of your html file as illustrated below
