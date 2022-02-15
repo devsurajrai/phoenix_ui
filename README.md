@@ -34,7 +34,7 @@ Just the link from below and paste in the header section of your html file as il
 ```
 <link rel="stylesheet" href="https://ui-phoenix.netlify.app/components/card/card.css">
 ```
-** The CDN link for each component is mentioned in the documentation.**
+**The CDN link for each component is mentioned in the documentation.**
 ### Available Components
 
 1. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html)
