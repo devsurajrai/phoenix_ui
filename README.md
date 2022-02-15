@@ -1,10 +1,22 @@
 
+[![](https://img.shields.io/badge/PHOENIX-UI-%231DA1F2.svg?style=for-the-badge&logo=PHOENIX-UI&logoColor=white)](https://ui-phoenix.netlify.app)
+
 <h1 align="center">PHOENIX UI</h1><br>
-<p align="center">This is a Component library which can be used to effortlessly build the great UIs. <a href="https://ui-phoenix.netlify.app">Pay a visit</a><br></p>
+
+<p align="center">This is a Component library which can be used to effortlessly build the great UIs.<br></p>
 
 <h1 align="center" ><img src="https://user-images.githubusercontent.com/77954411/153797027-e21095a5-c6a5-41fd-908b-7002b8328759.gif"/></h1>
+
+
+<h1 align="center"><img src="https://img.shields.io/github/followers/devsurajrai?style=socialhttps://img.shields.io/github/followers/devsurajrai?style=social"> <img src="https://img.shields.io/github/issues-pr/devsurajrai/phoenix_ui">
+<img src="https://img.shields.io/github/issues-pr-closed-raw/devsurajrai/phoenix_ui">
+<img src="https://img.shields.io/github/last-commit/devsurajrai/phoenix_ui">
+<img src="https://img.shields.io/badge/Version-V.1.0-brightgreen">
+  
+</h1>
+
 <hr>
-https://img.shields.io/github/followers/devsurajrai?style=socialhttps://img.shields.io/github/followers/devsurajrai?style=social
+
 ## About
 
 This Component library is built with plain **HTML and CSS** to make the projects building process easy and fun. Also for the sake of consistancy in the projects which would be built using this Library. This component library is in its initial stages and would surely evolve on the way. I've built this for the personal use but if people can benifit from it would be my pleasure. 
