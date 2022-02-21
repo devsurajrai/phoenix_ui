@@ -11,7 +11,6 @@
   place-content: space-between;
   place-items: center;
   grid-gap: 5rem;
-  box-shadow: 0px 2px 5px 0px var(--primary);
   z-index: 1;
 }
 .main {
