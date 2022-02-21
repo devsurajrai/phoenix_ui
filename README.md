@@ -35,6 +35,16 @@ Just the link from below and paste in the header section of your html file as il
 <link rel="stylesheet" href="https://ui-phoenix.netlify.app/components/card/card.css">
 ```
 **The CDN link for each component is mentioned in the documentation.**
+## Running the Component Library Locally
+
+1. Clone the repository by running the command in your terminal.
+
+```
+git clone git@github.com:devsurajrai/phoenix_ui.git
+
+```
+2. A directory named "phonenix_ui" will be created on your machine.
+3. Go to the index.html and use the live server to run the project.
 ### Available Components
 
 1. [Avatar](https://ui-phoenix.netlify.app/components/docs/docs.html)
@@ -47,6 +57,10 @@ Just the link from below and paste in the header section of your html file as il
 9. [List](https://ui-phoenix.netlify.app/components/docs/docs.html)
 10. [Text Utilities](https://ui-phoenix.netlify.app/components/docs/docs.html)
 11. [Navigation](https://ui-phoenix.netlify.app/components/docs/docs.html) 
+
+## Tech Stack
+- HTML
+- CSS
 
 ## Learnings
 
@@ -74,20 +88,11 @@ Simply change the source to "https://ui-phoenix.netlify.app/Assets/svg/navigatio
 <img src="https://ui-phoenix.netlify.app/Assets/svg/navigation/search.svg" alt="search">
 
 ```
-## Running the Component Library Locally
 
-1. Clone the repository by running the command in your terminal.
-
-```
-git clone git@github.com:devsurajrai/phoenix_ui.git
-
-```
-2. A directory named "phonenix_ui" will be created on your machine.
-3. Go to the index.html and use the live server to run the project.
 
 ## Contributing to the project
 
-1. Do the steps (1-2) exactly as above.
+<!-- 1. Do the steps (1-2) exactly as above.
 2. Refer the **style-guide.css** and **utilities.css** to get the idea what pattern is followed.
 3. Create a new branch as your component name from **development** branch.
 4. Create the component.
@@ -97,7 +102,8 @@ git clone git@github.com:devsurajrai/phoenix_ui.git
 
 **Note: Please describe the component/changes you have made in your pull request. It would be nice if you could attach a visual example for the same.**
 
-
+ -->
+**This project is not opensource yet.**
 <h3 align="center">Connect With Me👇</h><br><br>
 
 [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_surajrai_z/)
