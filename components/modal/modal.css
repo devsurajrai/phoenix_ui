@@ -1,0 +1,16 @@
+
+/* modal container  */
+.modal-container{
+    background-color:white;
+    height:40vh;
+}
+/* modal styles */
+.modal{
+background-color:var(--secondary);
+height:80%;
+width:50%;
+color:var(--light-color);
+}
+.modal-dispay-none{
+    display:none;
+}
