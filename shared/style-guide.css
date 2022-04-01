@@ -24,6 +24,7 @@
   --online: green;
   --offline: rgb(221, 221, 221);
   --dnd: red;
+
   /* elements-state(eg.button)  */
   --active: var(--primary);
 
