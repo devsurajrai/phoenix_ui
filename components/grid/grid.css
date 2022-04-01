@@ -1,0 +1,26 @@
+.grid-container{
+    background-color:var(--light-color)
+}
+/* grid having two items  */
+.grid-two{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:80%;
+    height:80%;
+    background-color:var(--secondary);
+    place-items:center;
+
+}
+/* grid having three items  */
+.grid-three{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:80%;
+    height:80%;
+    background-color:var(--secondary);
+    place-items:center;
+
+}
+.item{
+color:var(--light-color)
+}
