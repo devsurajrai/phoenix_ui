@@ -57,6 +57,11 @@ git clone git@github.com:devsurajrai/phoenix_ui.git
 9. [List](https://ui-phoenix.netlify.app/components/docs/docs.html)
 10. [Text Utilities](https://ui-phoenix.netlify.app/components/docs/docs.html)
 11. [Navigation](https://ui-phoenix.netlify.app/components/docs/docs.html) 
+11. [Rating](https://ui-phoenix-temp.netlify.app/components/docs/docs.html) 
+11. [Modal](https://ui-phoenix-temp.netlify.app/components/docs/docs.html) 
+11. [Grid](https://ui-phoenix-temp.netlify.app/components/docs/docs.html) 
+11. [Toast](https://ui-phoenix-temp.netlify.app/components/docs/docs.html) 
+
 
 ## Tech Stack
 - HTML
