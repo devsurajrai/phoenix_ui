@@ -1,0 +1,9 @@
+.rating-container{
+background-color:white;
+}
+.rating-star-active{
+color: var(--secondary)
+}
+.fa-star{
+    cursor:pointer
+}
