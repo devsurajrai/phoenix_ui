@@ -1,0 +1,21 @@
+/* reset  */
+.toast-text{
+    padding:unset;
+    margin:unset;
+}
+/* modal container  */
+.toast-container{
+    background-color:var(--light-color);
+    height:20vh;
+}
+
+/* toast */
+.toast{
+    background-color:var(--dark);
+    color:var(--light-color);
+    bottom:2rem;
+}
+.toast-button{
+    color:var(--secondary);
+    cursor:pointer;
+}
